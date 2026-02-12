@@ -1,3 +1,6 @@
+<img width="936" height="661" alt="image" src="https://github.com/user-attachments/assets/e9aa7ad3-6ddc-489e-a614-3b98728bb180" />
+
+
 # The Living Blueprint
 > **ARCHITECTURAL_DRIFT_ELIMINATOR_V1**
 
