@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Living Blueprint</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ['"JetBrains Mono"', 'monospace'],
+            },
+            colors: {
+              brutal: {
+                bg: '#f0f0f0',
+                border: '#000000',
+                accent: '#ff00ff', // Neon magenta
+                highlight: '#ccff00', // Neon lime
+                alert: '#ff3300', // Red
+              }
+            },
+            boxShadow: {
+              'hard': '8px 8px 0px 0px rgba(0,0,0,1)',
+              'hard-sm': '4px 4px 0px 0px rgba(0,0,0,1)',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: 'JetBrains Mono', monospace;
+      }
+      /* Custom scrollbar for brutalist look */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #fff; 
+        border: 2px solid #000;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #ccff00; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

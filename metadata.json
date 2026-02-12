@@ -1,0 +1,7 @@
+{
+  "name": "The Living Blueprint",
+  "description": "A Brutalist PM tool for detecting architectural drift using Gemini Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
